@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Netflix Ultimate</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="nav" id="nav">
+  <img class="nav_logo" src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg">
+</nav>
+
+<!-- BANNER -->
+<header class="banner" id="banner">
+  <div class="banner_contents">
+    <h1 class="banner_title" id="title"></h1>
+    <p class="banner_desc" id="desc"></p>
+    <div class="banner_buttons">
+      <button class="btn" id="playBtn">▶ Play</button>
+      <button class="btn btn2" id="myListBtn">+ My List</button>
+    </div>
+  </div>
+  <div class="fade_bottom"></div>
+</header>
+<div id="myListSection" class="row" style="display:none;">
+  <h2>My List</h2>
+  <div class="row_posters" id="myListRow"></div>
+</div>
+<!-- ROWS -->
+<div id="rows"></div>
+
+<!-- TRAILER -->
+<div id="modal" class="modal">
+  <span id="close">×</span>
+  <iframe id="trailer"></iframe>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
